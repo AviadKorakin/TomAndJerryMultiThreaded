@@ -5,7 +5,7 @@ Welcome to the Tom and Jerry game! This project is an Android application featur
 ## Features
 
 1. **Multithreading**:
-    - Utilizes `ExecutorService` for managing game updates on a separate thread from the main UI thread.
+    - Utilizes `ExecutorService` and `Thread` for managing game updates on a separate thread from the main UI thread.
     - Ensures smooth and responsive gameplay by offloading intensive operations.
 
 2. **Maps API**:
@@ -30,7 +30,7 @@ Welcome to the Tom and Jerry game! This project is an Android application featur
 
 ### Multithreading Executor and Thread Implementation
 
-- The game logic runs on a separate thread using `ExecutorService`. This ensures the main UI thread remains responsive.
+- The game logic runs on a separate thread using `Thread`. This ensures the main UI thread remains responsive.
 
 ### Maps API
 
