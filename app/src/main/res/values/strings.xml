@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TomAndJerry</string>
+    <string name="left_button">left_button</string>
+    <string name="right_button">right_button</string>
+    <string name="TomAndJerry_Fast">dss</string>
+    <string name="qwe">wqe</string>
+    <string name="qqq">qwewqe</string>
+    <string name="lweqwen">qweqwe</string>
+    <string name="qweqqq">wqewqewqe</string>
+    <string name="qqwewn">wqeqweqwewqe</string>
+    <string name="qqqqqqq">qqqqqq</string>
+    <string name="asdads">weqweqweqwe</string>
+    <string name="qqer">wqewqewqe</string>
+    <string name="returnButtonflipped">qwewqe</string>
+    <string name="meters">Meters:</string>
+    <string name="score">Score:</string>
+    <string name="title_activity_maps">Maps_Activity</string>
+    <string name="title_activity_maps_alt">MapsAlt_Activity</string>
+    <string name="return_button">return_button</string>
+</resources>

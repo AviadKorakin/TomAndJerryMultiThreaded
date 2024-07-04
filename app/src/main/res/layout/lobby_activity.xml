@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Activities.LobbyActivity">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:alpha="0.8"
+
+        android:src="@drawable/img_background"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_logolobby" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/TomAndJerry_Scoreboard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="@null"
+            android:contentDescription="@string/qwe"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_scoreboard" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/TomAndJerry_GameSettings"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="@null"
+            android:contentDescription="@string/qwe"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_gamesettings" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/TomAndJerry_SpeedMode"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="@null"
+            android:contentDescription="@string/qqq"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_speedmode" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/TomAndJerry_SpeedToggle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/TomAndJerry_Fast"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/TomAndJerry_Fast"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_fast2" />
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/TomAndJerry_Slow"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+
+                android:contentDescription="@string/lweqwen"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_slow2" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/TomAndJerry_ButtonsMode"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="@null"
+            android:contentDescription="@string/left_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_buttonsmode" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/TomAndJerry_ButtonsToggle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/TomAndJerry_Buttons"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/qweqqq"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_buttons2" />
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/TomAndJerry_Sensor"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:contentDescription="@string/qqwewn"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_sensor2" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/TomAndJerry_LaunchGame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="@null"
+            android:contentDescription="@string/qqqqqqq"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launchgame" />
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/TomAndJerry_Reset"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@null"
+            android:contentDescription="@string/asdads"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_reset" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
