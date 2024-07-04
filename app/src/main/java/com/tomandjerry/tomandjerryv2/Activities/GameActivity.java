@@ -22,7 +22,7 @@ import com.tomandjerry.tomandjerryv2.Utilities.MoveDetector;
 import com.tomandjerry.tomandjerryv2.Utilities.MyBackgroundMusic;
 import com.tomandjerry.tomandjerryv2.Utilities.MyLocationManager;
 import com.tomandjerry.tomandjerryv2.Utilities.MyMediaPlayer;
-import com.tomandjerry.tomandjerryv2.enums.HitStatus;
+import com.tomandjerry.tomandjerryv2.Enums.HitStatus;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

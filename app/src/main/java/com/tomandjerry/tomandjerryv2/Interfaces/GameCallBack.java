@@ -1,6 +1,6 @@
 package com.tomandjerry.tomandjerryv2.Interfaces;
 
-import com.tomandjerry.tomandjerryv2.enums.HitStatus;
+import com.tomandjerry.tomandjerryv2.Enums.HitStatus;
 
 public interface GameCallBack {
     void onHit(HitStatus status);

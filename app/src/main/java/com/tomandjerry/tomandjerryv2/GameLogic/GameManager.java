@@ -6,7 +6,7 @@ import com.tomandjerry.tomandjerryv2.R;
 
 import com.tomandjerry.tomandjerryv2.Utilities.MyScore;
 import com.tomandjerry.tomandjerryv2.Utilities.MySharedPreferences;
-import com.tomandjerry.tomandjerryv2.enums.HitStatus;
+import com.tomandjerry.tomandjerryv2.Enums.HitStatus;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.tomandjerry.tomandjerryv2.enums;
+package com.tomandjerry.tomandjerryv2.Enums;
 
 public enum HitStatus {
     OBSTACLE_HIT,

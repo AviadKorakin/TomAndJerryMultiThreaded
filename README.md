@@ -46,7 +46,7 @@ Welcome to the Tom and Jerry game! This project is an Android application featur
 
 ### Location (FusedLocationProvider)
 
-- The `MyLocation` class retrieves the device's last known location using `FusedLocationProviderClient`.
+- The `MyLocationManager` class retrieves the device's last known location using `FusedLocationProviderClient`.
 
 ### Sensors
 
