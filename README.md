@@ -54,7 +54,7 @@ Welcome to the Tom and Jerry game! This project is an Android application featur
 
 ## Watch the Game
 
-For a video demonstration of the game, click [here](https://drive.google.com/file/d/1OQtpxdAJTNcrI2djZqfihZwlQrUZ-Eao/view?usp=sharing).
+For a video demonstration of the game, click [here](https://www.youtube.com/shorts/NYRLSbPsycs).
 
 ## Acknowledgments
 
